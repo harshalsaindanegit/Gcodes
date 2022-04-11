@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="216401" started-at="2022-03-09T15:12:30 IST" finished-at="2022-03-09T15:16:06 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="216401" started-at="2022-03-09T15:12:30 IST" finished-at="2022-03-09T15:16:06 IST">
+      <class name="com.GCodes.TestCases.TC_GCodesLogin_001">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@fe18270]" name="Setup" is-config="true" duration-ms="2224" started-at="2022-03-09T15:12:30 IST" finished-at="2022-03-09T15:12:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_GCodes_Login_001()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@fe18270]" name="TC_GCodes_Login_001" duration-ms="18359" started-at="2022-03-09T15:12:32 IST" finished-at="2022-03-09T15:12:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GCodes_Login_001 -->
+      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001 -->
+      <class name="com.GCodes.TestCases.TC_Cart_validation_004">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@1d7acb34]" name="Setup" is-config="true" duration-ms="1996" started-at="2022-03-09T15:14:11 IST" finished-at="2022-03-09T15:14:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_CartAddRemove()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@1d7acb34]" name="TC_CartAddRemove" duration-ms="82281" started-at="2022-03-09T15:14:13 IST" finished-at="2022-03-09T15:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_CartAddRemove -->
+      </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
+      <class name="com.GCodes.TestCases.TC_Wallet_003">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@5f71c76a]" name="Setup" is-config="true" duration-ms="1832" started-at="2022-03-09T15:13:23 IST" finished-at="2022-03-09T15:13:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_Invalid_Wallet_003()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@5f71c76a]" name="TC_Invalid_Wallet_003" duration-ms="34114" started-at="2022-03-09T15:13:24 IST" finished-at="2022-03-09T15:13:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Invalid_Wallet_003 -->
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@5f71c76a]" name="Setup" is-config="true" duration-ms="2021" started-at="2022-03-09T15:13:58 IST" finished-at="2022-03-09T15:14:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_Invalid_Wallet_005()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@5f71c76a]" name="TC_Invalid_Wallet_005" duration-ms="10960" started-at="2022-03-09T15:14:00 IST" finished-at="2022-03-09T15:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Invalid_Wallet_005 -->
+      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
+      <class name="com.GCodes.TestCases.TC_Issuance_Importer_005">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="Setup" is-config="true" duration-ms="2713" started-at="2022-03-09T15:15:36 IST" finished-at="2022-03-09T15:15:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_Import_InvalidFile()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="TC_Import_InvalidFile" duration-ms="27799" started-at="2022-03-09T15:15:38 IST" finished-at="2022-03-09T15:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Import_InvalidFile -->
+      </class> <!-- com.GCodes.TestCases.TC_Issuance_Importer_005 -->
+      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@27fe3806]" name="Setup" is-config="true" duration-ms="1761" started-at="2022-03-09T15:12:51 IST" finished-at="2022-03-09T15:12:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_GCodes_LoginValidations_002()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@27fe3806]" name="TC_GCodes_LoginValidations_002" duration-ms="30020" started-at="2022-03-09T15:12:52 IST" finished-at="2022-03-09T15:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GCodes_LoginValidations_002 -->
+      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
